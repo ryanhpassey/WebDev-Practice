@@ -4,28 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="index.html">About Me</a>
-            <a href="">Unity Project</a>
-            <a href="">Other Projects</a>
+        <nav id="header_nav">
+            <a class="header_link" href="index.html">About Me</a>
+            <a class="header_link" href="unity-page.html">Unity Project</a>
+            <a class="header_link" href="other-projects.html">Other Projects</a>
         </nav>
     </header>
     <main>
         <section id="contact_info">
-            <h1>Ryan Passey</h1>
-            <p>253 E 1st S<br>Rexburg, Idaho 83440<br>(843)685-0623<br>ryanhpassey@gmail.com</p>
-            <img id="personal-pic" src="images/picture_of_me.png" alt="Photo of me">
+            <div>
+                <img id="name_logo" src="images/logo.png" alt="name logo">
+                <h1 id="contact_info_header">Ryan Passey</h1>
+                <nav id="header_nav">
+                <p>253 E 1st S<br>Rexburg, Idaho 83440<br>(843)685-0623<br>ryanhpassey@gmail.com</p>
+            </div>
+            <img id="personal_pic" src="images/picture_of_me.png" alt="Photo of me">
         </section>
         <section id="education">
-            <h2>EDUCATION</h2>
-            <section>
+            <h2 id="school_header">EDUCATION</h2>
+            <section id="school_byu_info">
                 <img class="school_pic" src="images/BYUI_logo.png" alt="BYUI logo">
-                <p class="info_title">Brigham Young University - Idaho, ID  — <br>Software Development<br>January 2019 - Present</p>
-                <h3>Completed courses in:</h3> 
-                <ul class="info_list">
+                <p class="school_info_title">Brigham Young University - Idaho, ID<br>Software Development<br>January 2019 - Present</p>
+                <h3 class="school_info_header">Completed courses in:</h3> 
+                <ul class="school_info_list">
                     <li>Programming fundamentals</li>
                     <li>Data structures</li>
                     <li>Object-oriented programming</li>
@@ -37,22 +42,25 @@
                     <li>HTML</li>
                     <li>JavaScript</li>
                 </ul>
-                <p class="school_info">Currently enrolled. I'm due to graduate Arpil of 2025 with a certificate in Software Development.</p>
+                <p class="school_info">Currently enrolled. I'm due to graduate April of 2025 with a certificate in Software Development.</p>
             </section>
-            <section>
+            <section id="school_aast_info">
                 <img class="school_pic" src="images/AAST_logo.jfif" alt="AAST logo">       
-                <p class="info_title">Academy for the Arts, Science, and Technology, SC  — <br>High School Diploma<br>September 2012 - May 2016</p>   
-                <ul class="info_list">
+                <p class="school_info_title">Academy for the Arts, Science, and Technology, SC<br>High School Diploma<br>September 2012 - May 2016</p>   
+                <h3 class="school_info_header">Accomplishments:</h3> 
+                <ul class="school_info_list">
                     <li>Graduated from the Computer Science program</li>
                     <li>Won 2nd place in the 2015 regional team robotics competition in Virginia</li>
                 </ul>
+                <p class="school_info">The academy offered "majors" for juniors and seniors to which I dedicated 3 classes in both years.</p>
             </section>
 
         </section>
         <section id="job_history">
-            <h2>WORK HISTORY</h2>
-            <div>
-                <p class="info_title">Beehive Federal Credit Union, Rexburg ID</p>
+            <h2 id="job_header">WORK HISTORY</h2>
+            <section class="job_info">
+                <img class="job_icon" src="images/Beehive_FCU_logo.png" alt="Beehive FCU icon">
+                <h3 class="job_info_title">Beehive Federal Credit Union,<br>Rexburg ID</h3>
                 <p>Member Service Representative<br>June 2023 - PRESENT</P>
                 <ul>
                     <li>Protecting members from fraud by fortifying and insuring funds</li>
@@ -64,31 +72,39 @@
                     <li>Assured safety and integrity by upholding federal regulations</li>
                     <li>Hastened transactions by stocking cash machines and ensuring transaction accuracy</li>
                 </ul>
-                <img class="employer_icon" src="images/Beehive_FCU_logo.png" alt="Beehive FCU icon">
-            </div>
-            <div>
-                <p class="info_title">The Wendy's Company, Rexburg, ID</p>
+            </section>
+            <section class="job_info">
+                <img class="job_icon" src="images/Wendy's_logo.png" alt="Wendy's icon">
+                <h3 class="job_info_title">The Wendy's Company,<br> Rexburg, ID</h3>
                 <p>Shift Manager<br>January 2019 - September 2022 (3 years 9 months)</p>
                 <ul>
                     <li>Passed a ServSafe exam to obtain a certificate that allows me to safely and legally manage the preperation of public food</li>
                     <li>Increased employee retention by improving employee relations and creating a more healthy environment</li>
                     <li>Broke the lunch rush record by serving over 230 cars in the drive thru in only 2 hours</li>
                 </ul>
-                <img class="employer_icon" src="images/Wendy's_logo.png" alt="Wendy's icon">
-            </div>
+            </section>
         </section>
     </main>
     <footer>
-        <p>Ryan H Passey</p>
-        <a href="index.html">About Me</a>
-        <a href="">Unity Project</a>
-        <a href="">Other Projects</a>
-        <a href="https://facebook.com" target="_blank">
-            <img src="images/facebook.png" alt="fb icon">
-        </a>
-        <a href="https://twitter.com">
-            <img src="images/twitter.png" alt="twitter icon">
-        </a>
+        <section id="footer_left">
+            <p>Ryan H Passey</p>
+            <img class="link_logo" src="images/logo.png" alt="name logo">
+        </section>
+        <section id="footer_center">
+            <nav>
+                <a class="footer_link" href="index.html">About Me</a>
+                <a class="footer_link" href="">Unity Project</a>
+                <a class="footer_link" href="">Other Projects</a>
+            </nav>
+        </section>
+        <section id="footer_right">
+            <a href="https://www.facebook.com/ryan.passey.33/" target="_blank">
+                <img class="link_logo" src="images/facebook_logo.png" alt="fb icon">
+            </a>
+            <a href="https://www.linkedin.com/in/ryan-passey-422219309/">
+                <img class="link_logo" src="images/linkedin_logo.png" alt="Linkedin icon">
+            </a>
+        </section>
     </footer>
     
 </body>

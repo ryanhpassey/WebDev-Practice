@@ -1,0 +1,201 @@
+content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background: #F3F3E0;
+    font-size: 24px;
+    text-align: center;
+}
+
+#contact_info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 550px;
+    font-size:30px;
+    text-align: left;
+    justify-items: center;
+}
+
+#contact_info_header {
+    font-size: 36px;
+}
+
+#education {
+    background: #608BC1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px, 200px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40px;
+    text-align: center;
+    background-color: #608BC1;
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+#footer_left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 0px;
+    grid-column: 1/2;
+}
+
+.footer_link {
+    margin-left: 50px;
+}
+
+#footer_right {
+    display: grid;
+    grid-template-columns: repeat(2, 50px);
+    height: 20px;
+    grid-column: 3/4;
+    padding-bottom: 60px;
+    padding-right: 40px;
+    justify-self: right;
+}
+
+
+h1, h2, h3 {
+    font-family: Garamond;
+    color: #133E87
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px;
+    background-color: #608BC1;
+    align-items: center;
+}
+
+.header_link {
+    margin-left: 100px;
+}
+
+#header_nav { 
+    grid-column: 2/3;
+    margin-right: 50 px;
+    font-size: 26px;
+}
+
+#job_history{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px, 200px;
+}
+
+.job_icon {
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.job_info {
+    border: 5px ridge #133E87;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.job_info_title {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 32px;
+}
+
+.link_logo {
+    height: 40px;
+    padding-top: 20px;
+}
+
+#name_logo {
+    height: 50%;
+    display: block;
+    margin-top: 20px;
+}
+
+nav a:hover {
+    color: #CBDCEB;
+}
+
+#personal_pic {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    float: right;
+    display: block;
+    height: 110%;
+    margin-left: auto;
+    margin-right: 75px;
+    box-shadow: 5px 5px 10px #6f7364;
+    border: 5px ridge #133E87;
+    margin-top: 10px;
+}
+
+#school_byu_info {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#school_aast_info {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding-right: 20px;
+}
+
+#school_byu_info, #school_aast_info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px, 300px, 100px;
+    border: 5px ridge #133E87;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#school_header, #job_header {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-top: 50px;
+    font-size: 36px;
+}
+
+.school_info {
+    grid-column: 1/3;
+}
+
+.school_info_header{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.school_info_list {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: left;
+}
+
+.school_info_title {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+.school_pic {
+    height: 100px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 20px;
+}
