@@ -3,40 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Unity</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <h1>Unity Project</h1>
-  
     <header>
-        <h3>Blackberry Winter</h3>
-        <p> For the past several months, I've been working hard coding and developing my own videogame (dubbed Blackberry Winter) using the Unity engine. Unity is a 3D game engine widely used for its versatility, strength, and optimization. Unity supports custom code written in C# to support games of any shape and size.</p>
-        <img id="unity logo" src="images/unity_logo" alt="Unity logo">
-  
+        <nav id="header_nav">
+            <a class="header_link" href="index.html">About Me</a>
+            <a class="header_link" href="unity-page.html">Unity Project</a>
+            <a class="header_link" href="other-projects.html">Other Projects</a>
+        </nav>
     </header>
+    
+    <h1>Unity Project</h1>
 
     <main>
-        <img id="unity1" src="images/unity" alt="Unity1">
-        <p>Learning to use Unity was a difficult process. While I was trying to learn the basics, I decided to try and recreate a game of Snake. I followed tutorials online and spent a lot of time reading through the Unity manual. Once I felt comfortable, I moved on to my first real game.</p>
-        <p>Becuase Blackberry Winter is written in C#, it's been an excelent vehicle for practicing concepts I was taught in University, namely Object-Oriented Programming and data structures. Through this process, I have also discovered new tools such as interfaces and state machines.</p>
-        <img id="unity1" src="images/unity" alt="Unity2">
-  
-        <img id="unity1" src="images/unity" alt="Unity3">
-  
-        <p>Fortunately, I'm not alone through this endeavor. My wife, as well as a few friends, are supporting me with original art, music, and written dialogue. Meanwhile, I write the code and manage all assets within Unity.</p>
+        <section class="subpage_header">
+            <div class="subpageheader_info">
+                <h3>Blackberry Winter</h3>
+                <p> For the past several months, I've been working hard coding and developing my own videogame (dubbed Blackberry Winter) using the Unity engine. Unity is a free game engine widely used for its versatility, strength, and optimization. Unity supports custom C# scripts to create games of any shape and size.</p>
+            </div>
+            <img class="subpageheader_image" src="images/unity_logo.png" alt="Unity1">
+        </section>
+        <div class="blue">
+            <section class="subpage_info">
+                <img class="subpage_image" src="images/unity_practice.PNG" alt="Blackberry Winter">
+                <p>As this is my first attempt at making a videogame, getting things off the ground took some time. I spent subsantial time doing research in the beginning, but things are starting to come together. This development screenshot was taken in July of 2024.</p>
+                <p>Because Blackberry Winter is written in C#, it's been an excelent vehicle for practicing concepts I was taught at BYU-I, particularly Object-Oriented Programming and data structures. Through this process, I have also discovered new tools such as interfaces and state machines.</p>
+                <img class="subpage_image" src="images/unity_code_snippit.PNG" alt="Unity Code">
+                <img class="subpage_image" src="images/beth_sprite_ground_slam_mockup.gif" alt="Sprite GIF">
+                <p>Fortunately, I'm not alone through this endeavor. My wife, as well as a few friends, are supporting me with original art, music, and written dialogue. Meanwhile, I write all scripts and assemble the assets within Unity.</p>
+            </section>
+        </div>
     </main>
     
     <footer>
-        <p>Ryan H Passey</p>
-        <a href="index.html">About Me</a>
-        <a href="">Unity Project</a>
-        <a href="">Other Projects</a>
-        <a href="https://facebook.com" target="_blank">
-            <img src="images/facebook.png" alt="fb icon">
-        </a>
-        <a href="https://twitter.com">
-            <img src="images/twitter.png" alt="twitter icon">
-        </a>
+        <section id="footer_left">
+            <p>Ryan H Passey</p>
+            <img class="link_logo" src="images/logo.png" alt="name logo">
+        </section>
+        <section id="footer_center">
+            <nav>
+                <a class="footer_link" href="index.html">About Me</a>
+                <a class="footer_link" href="unity-page.html">Unity Project</a>
+                <a class="footer_link" href="other-projects.html">Other Projects</a>
+                <a class="footer_link" href="site-plan.html">Site Plan</a>
+            </nav>
+        </section>
+        <section id="footer_right">
+            <a href="https://www.facebook.com/ryan.passey.33/" target="_blank">
+                <img class="link_logo" src="images/facebook_logo.png" alt="fb icon">
+            </a>
+            <a href="https://www.linkedin.com/in/ryan-passey-422219309/">
+                <img class="link_logo" src="images/linkedin_logo.png" alt="Linkedin icon">
+            </a>
+        </section>
     </footer>
     
 </body>

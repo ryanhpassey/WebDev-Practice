@@ -1,6 +1,26 @@
+:root {
+    --primary-color: #F3F3E0   ;
+    --secondary-color: #133E87 ;
+    --accent1-color: #608BC1;
+    --accent2-color: #CBDCEB;
+    --headline-color-on-white: #133E87;  
+    --headline-color-on-color: #F3F3E0;
+    --paragraph-color-on-white: #133E87; 
+    --paragraph-color-on-color: #F3F3E0; 
+    --paragraph-background-color: #608BC1;
+    --nav-link-color: #133E87;
+    --nav-background-color: #CBDCEB;
+    --nav-hover-link-color: #F3F3E0;
+    --nav-hover-background-color: #133E87;
+    }
+
 content {
     max-width: 1600px;
     margin: 0 auto;
+}
+
+.blue {
+    background: #608BC1;
 }
 
 body {
@@ -34,7 +54,7 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 40px;
     text-align: center;
-    background-color: #608BC1;
+    background-color: var(--accent2-color);
     height: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -49,7 +69,7 @@ footer {
 }
 
 .footer_link {
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 #footer_right {
@@ -72,7 +92,7 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 50px;
-    background-color: #608BC1;
+    background-color: var(--accent2-color);
     align-items: center;
 }
 
@@ -125,8 +145,17 @@ header {
     margin-top: 20px;
 }
 
+nav a {
+    padding: 10px;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
 nav a:hover {
-    color: #CBDCEB;
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
 
 #personal_pic {
@@ -199,3 +228,48 @@ nav a:hover {
     margin-right: 10px;
     margin-top: 20px;
 }
+
+.subpage_header{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subpage_image {
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px ridge #CBDCEB;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.subpage_info {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 30px;
+    align-items: center;
+    padding-bottom: 50px
+}
+
+.subpage_list {
+    display: block;
+    text-align: left;
+}
+
+.subpageheader_image {
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: center;
+}
+
