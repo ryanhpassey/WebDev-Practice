@@ -46,7 +46,7 @@ body {
     background: #608BC1;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 50px 200px;
+    grid-template-rows: 150px;
 }
 
 footer {
@@ -109,7 +109,7 @@ header {
 #job_history{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 50px 200px;
+    grid-template-rows: 150px;
 }
 
 .job_icon {
@@ -185,7 +185,7 @@ nav a:hover {
 #school_byu_info, #school_aast_info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100px 300px 100px;
+    grid-template-rows: 200px 400px 100px;
     border: 5px ridge #133E87;
     margin-left: 20px;
     margin-right: 20px;
