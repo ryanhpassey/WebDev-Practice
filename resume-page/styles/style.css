@@ -63,7 +63,7 @@ footer {
 
 #footer_left {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding-top: 0px;
     grid-column: 1/2;
 }
@@ -74,7 +74,7 @@ footer {
 
 #footer_right {
     display: grid;
-    grid-template-columns: repeat(2, 50px);
+    grid-template-columns: repeat(3, 50px);
     height: 20px;
     grid-column: 3/4;
     padding-bottom: 60px;
